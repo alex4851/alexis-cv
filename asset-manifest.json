@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.904b8471.css",
-    "main.js": "/react-deploy/static/js/main.1451a691.js",
-    "static/media/exemple.jpg": "/react-deploy/static/media/exemple.e92745c6af935e250fef.jpg",
-    "static/media/alexis_beligne_cv.pdf": "/react-deploy/static/media/alexis_beligne_cv.8e7c5c1ea7a5430f99ac.pdf",
-    "static/media/sopra_steria.png": "/react-deploy/static/media/sopra_steria.dc6e0dfc41a87d3c5c7d.png",
-    "static/media/ad_education.png": "/react-deploy/static/media/ad_education.969b7186895022e9e23d.png",
-    "static/media/slick.svg": "/react-deploy/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/react-deploy/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/react-deploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/react-deploy/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/react-deploy/index.html",
-    "main.904b8471.css.map": "/react-deploy/static/css/main.904b8471.css.map",
-    "main.1451a691.js.map": "/react-deploy/static/js/main.1451a691.js.map"
+    "main.css": "/alexis-cv/static/css/main.4f0c8a74.css",
+    "main.js": "/alexis-cv/static/js/main.d7e1fc27.js",
+    "static/media/exemple.jpg": "/alexis-cv/static/media/exemple.e92745c6af935e250fef.jpg",
+    "static/media/alexis_beligne_cv.pdf": "/alexis-cv/static/media/alexis_beligne_cv.8e7c5c1ea7a5430f99ac.pdf",
+    "static/media/sopra_steria.png": "/alexis-cv/static/media/sopra_steria.dc6e0dfc41a87d3c5c7d.png",
+    "static/media/ad_education.png": "/alexis-cv/static/media/ad_education.969b7186895022e9e23d.png",
+    "static/media/slick.svg": "/alexis-cv/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/alexis-cv/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/alexis-cv/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/alexis-cv/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/alexis-cv/index.html",
+    "main.4f0c8a74.css.map": "/alexis-cv/static/css/main.4f0c8a74.css.map",
+    "main.d7e1fc27.js.map": "/alexis-cv/static/js/main.d7e1fc27.js.map"
   },
   "entrypoints": [
-    "static/css/main.904b8471.css",
-    "static/js/main.1451a691.js"
+    "static/css/main.4f0c8a74.css",
+    "static/js/main.d7e1fc27.js"
   ]
 }
