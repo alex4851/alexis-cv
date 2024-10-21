@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alexis-cv/static/css/main.4f0c8a74.css",
-    "main.js": "/alexis-cv/static/js/main.d7e1fc27.js",
+    "main.js": "/alexis-cv/static/js/main.e9371afa.js",
     "static/media/exemple.jpg": "/alexis-cv/static/media/exemple.e92745c6af935e250fef.jpg",
     "static/media/alexis_beligne_cv.pdf": "/alexis-cv/static/media/alexis_beligne_cv.8e7c5c1ea7a5430f99ac.pdf",
     "static/media/sopra_steria.png": "/alexis-cv/static/media/sopra_steria.dc6e0dfc41a87d3c5c7d.png",
@@ -12,10 +12,10 @@
     "static/media/slick.woff": "/alexis-cv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/alexis-cv/index.html",
     "main.4f0c8a74.css.map": "/alexis-cv/static/css/main.4f0c8a74.css.map",
-    "main.d7e1fc27.js.map": "/alexis-cv/static/js/main.d7e1fc27.js.map"
+    "main.e9371afa.js.map": "/alexis-cv/static/js/main.e9371afa.js.map"
   },
   "entrypoints": [
     "static/css/main.4f0c8a74.css",
-    "static/js/main.d7e1fc27.js"
+    "static/js/main.e9371afa.js"
   ]
 }
