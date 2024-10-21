@@ -1,0 +1,134 @@
+.about{
+    padding: 80px 10px;
+    height: auto;  
+}
+.about.light{
+    background-color: #eeeeee;
+}
+.about.dark{
+    background-color: #111111;
+}
+.about.dark h1,
+.about.dark h2,
+.about.dark h3,
+.about.dark .vertical-timeline-element--work,.about.dark .vertical-timeline-element--education,
+.about.dark h4{
+    color: white;
+}
+.vertical-timeline-element--work,  .vertical-timeline-element--education{
+    margin: 40px 0;
+}
+.education{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Conteneur principal de la timeline */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; /* Empêche le scroll vertical */
+
+}
+  /* Les conteneurs pour chaque événement (alternance gauche/droite) */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Pour les événements à gauche */
+  .container.left {
+    left: 0;
+  }
+  
+  /* Pour les événements à droite */
+  .container.right {
+    left: 50%;
+  }
+  
+  /* Contenu de chaque événement */
+  .container #content{
+    padding: 40px;
+    background-color: #f9f9f9;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-out;
+  }
+.about.dark .container #content {
+    background-color: black;
+}
+
+  /* Style des cercles au centre */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: px;
+  }
+  .about.dark .timeline::after{
+    background-color: white;
+  }
+  
+  /* Pour les conteneurs à gauche, le cercle est placé à gauche */
+  .container.left::after {
+    left: -10px;
+  }
+  /* Animation lorsque l'utilisateur survole un événement */
+  .container:hover  #content{
+    background-color: #d8d8d8;
+    scale: 1.1;
+  }
+  
+
+  
+  /* Éléments à gauche */
+  .container.left {
+    left: 0;
+    transform: translateX(-100%); /* Hors écran à gauche */
+  }
+  
+  /* Éléments à droite */
+  .container.right {
+    left: 50%;
+    transform: translateX(100%); /* Hors écran à droite */
+  }
+  
+  /* Ligne centrale de la timeline */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

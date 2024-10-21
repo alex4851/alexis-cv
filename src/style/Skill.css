@@ -1,0 +1,31 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    width: 300px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: black;
+    width: 0; /* Initialisé à 0 pour l'animation */
+    transition: width 1s ease-in-out;
+    border-radius: 25px;
+  }
+
+.dark .progress{
+    background-color: white;
+}
+.dark .progress-bar {
+    background-color: black;
+border: 1px solid white;
+}

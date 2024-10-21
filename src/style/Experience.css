@@ -1,0 +1,44 @@
+#Experience{
+    padding: 80px 50px 50px 50px;
+    min-height: 100vh;
+}
+
+.carousel-container {
+  width: 50%;
+  max-width: 500px;
+  margin: 50px auto 200px ;
+  padding: 40px;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dark .carousel-item, .dark .carousel-text p{
+  color: white;
+}
+.dark .carousel-item #brightness{
+  filter: brightness(100);
+}
+.carousel-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.carousel-text {
+  text-align: center;
+}
+
+.carousel-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.carousel-text p {
+  font-size: 16px;
+  color: black;
+}
+
