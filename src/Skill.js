@@ -1,14 +1,9 @@
-import React, {useRef, useContext,useEffect} from 'react';
+import React, {useRef,useEffect} from 'react';
 import './i18n';
-import { useTranslation } from 'react-i18next';
 import './style/Skill.css';
-import { ThemeContext } from './ThemeContext';
-import ImgAi from './images/exemple.jpg'
 
 
 function Skill({ skillName, skillLevel }) {
-    const { t, i18n } = useTranslation();
-    const { theme, toggleTheme } = useContext(ThemeContext);
 
     const progressRef = useRef(null);
 

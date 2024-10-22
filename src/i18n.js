@@ -9,9 +9,8 @@ const resources = {
       "experience": "Experience",
       "education": "Education",
       "contact": "Contact",
-      "greeting": "Hello, I'm Alexis BELIGNE, a French student and I am passionnated by coding and cybersecurity",
+      "greeting": "Hello, I'm Alexis BELIGNE, a French student and I am passionate by coding and cybersecurity",
       "about_p" : "I have always loved coding and working on various problems",
-      "button" : "Go Up",
       //Partie formation
       "formation" : "Education",
       "bac" : "1ere (equivalence Grade 11) in Europeen section",
@@ -35,7 +34,6 @@ const resources = {
       "contact": "Contact",
       "greeting": "Bonjour, je suis Alexis BELIGNE, un étudient français et je suis passionné par le développement et la cybersécurité",
       "about_p" : "J'ai toujours aimé coder et travailler sur des problèmes.",
-      "button" : "Haut",
       //Partie formation
       "formation" : "Formation",
       "bac" : "1ere en séction Européenne",

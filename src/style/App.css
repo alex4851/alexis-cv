@@ -1,8 +1,18 @@
 .App {
-  text-align: center;
   scroll-behavior: smooth;
 }
-
+.circle {
+  z-index: 210;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  pointer-events: none; /* Empêche le cercle d'interagir avec d'autres éléments */
+  background-color: white; /* Ajoute une couleur noire pour la visibilité */
+  mix-blend-mode:difference; /* Inverse les couleurs sous le cercle */
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease, left 0.2s ease, top 0.2s ease; 
+}
 .light {
   background-color: white;
 }

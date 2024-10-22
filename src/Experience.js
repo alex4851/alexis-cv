@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext} from 'react';
 import './i18n';
 import { useTranslation } from 'react-i18next';
 import './style/Experience.css';
@@ -12,8 +12,8 @@ import ImgAD from './images/ad_education.png'
 import SkillBar from './Skill.js';
 
 function Experience() {
-    const { t, i18n } = useTranslation();
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { t} = useTranslation();
+    const { theme} = useContext(ThemeContext);
 
     const settings = {
         dots: true,
