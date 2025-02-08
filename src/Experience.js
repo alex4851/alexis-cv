@@ -46,7 +46,7 @@ function Experience() {
                     </div>
 
                     <div className="carousel-item">
-                        <a title='Try website' target='_blank' href='https://ai-liberty.fr/'>
+                        <a rel='noreferrer' title='Try website' target='_blank' href='https://ai-liberty.fr/'>
                         <img src={ImgAi} alt="Ai Liberty" />
                         </a>
                         <div className="carousel-text">
@@ -58,12 +58,12 @@ function Experience() {
             </div>
             <h2>Skills :</h2>
             <div className="skills-container">
-                <SkillBar skillName="JavaScript" skillLevel={60} />
                 <SkillBar skillName="HTML" skillLevel={95} />
-                <SkillBar skillName="CSS" skillLevel={90} />
-                <SkillBar skillName="Python" skillLevel={70} />
-                <SkillBar skillName="PHP" skillLevel={80} />
-                <SkillBar skillName="SQL" skillLevel={90} />
+                <SkillBar skillName="CSS" skillLevel={70} />
+                <SkillBar skillName="Python" skillLevel={50} />
+                <SkillBar skillName="PHP" skillLevel={50} />
+                <SkillBar skillName="SQL" skillLevel={50} />
+                <SkillBar skillName="JavaScript" skillLevel={50} />
             </div>
         </section>
     )
