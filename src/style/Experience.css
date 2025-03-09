@@ -3,12 +3,12 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    
+
   }
 
 .carousel-container {
   width: 500px;
-  margin: 50px auto 200px ;
+  margin: 0 auto ;
   padding: 40px;
 }
 
@@ -52,7 +52,7 @@
 @media screen and (max-width : 1000px ) {
   .carousel-container {
     width: 300px;
-    margin: 50px auto 200px ;
+    margin: 0 auto ;
     padding: 40px;
   }
   .carousel-item img, .carousel-item iframe {
