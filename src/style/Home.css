@@ -53,6 +53,10 @@ header:hover .greeting_part{
     header .greeting_part{
       width: 400px;
       opacity: 1;
+      text-align: center;
+  }
+  .greeting_part p{
+    text-align: justify;
   }
   header a{
     display: flex;
@@ -63,4 +67,11 @@ header:hover .greeting_part{
   .circle{
     display: none;
   }
+}
+
+@media screen and (max-width : 400px ) {
+  header .greeting_part{
+    width: 200px;
+    opacity: 1;
+}
 }
