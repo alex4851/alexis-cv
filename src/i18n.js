@@ -21,6 +21,7 @@ const resources = {
       "sopra" : "Observation internship in Sopra Steria, the second biggest ESN in Europe",
       "ai_liberty" : "Creation of a complete website allowing you to find the AI that meets your needs by answering a questionnaire",
       "ad" : "One-week observation internship in the IT department of a group that takes care of school campuses",
+      "fbg" : "Creation of a react website to sell books",
       //Footer
       "cv" : "Get my resume",
     }
@@ -44,6 +45,8 @@ const resources = {
       "sopra" : "Stage d'observation d'une semaine à Sopra Steria, la deuxième plus grande ESN d'Europe",
       "ai_liberty" : "Création d'un site web complet permettant de trouver l'IA qui correspond à votre besoin en répondant à un questionnaire",
       "ad" : "Stage d'observation d'une semaine dans la DSI d'un groupe qui s'occupe de campus scolaires",
+      "fbg" : "Création d'un site web pour vente de livres en ligne",
+
       //Footer
       "cv" : "Télécharger mon cv",
     }

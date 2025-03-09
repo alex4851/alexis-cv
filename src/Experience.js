@@ -9,7 +9,8 @@ import Slider from "react-slick";
 import ImgAi from './images/exemple.jpg'
 import ImgSopra from './images/sopra_steria.png'
 import ImgAD from './images/ad_education.png'
-import SkillBar from './Skill.js';
+// import SkillBar from './Skill.js';
+
 
 function Experience() {
     const { t} = useTranslation();
@@ -54,8 +55,27 @@ function Experience() {
                             <p>{t("ai_liberty")}</p>
                         </div>
                     </div>
+
+
+                    <div className="carousel-item">
+                        <a rel='noreferrer' title='Try website' target='_blank' href='https://fbgbooks.fr/'>
+                            <iframe
+                            title="Inline Frame Example"
+                            src="https://fbgbooks.fr/">
+                            </iframe>
+                        </a>
+                        <div className="carousel-text">
+                            <h3>FBG Books</h3>
+                            <p>{t("fbg")}</p>
+                        </div>
+                    </div>
                 </Slider>
             </div>
+
+
+
+            {/*
+
             <h2>Skills :</h2>
             <div className="skills-container">
                 <SkillBar skillName="HTML" skillLevel={95} />
@@ -65,7 +85,10 @@ function Experience() {
                 <SkillBar skillName="SQL" skillLevel={50} />
                 <SkillBar skillName="JavaScript" skillLevel={50} />
             </div>
+            
+        */}
         </section>
+
     )
 
 }

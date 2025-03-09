@@ -9,7 +9,7 @@ import { ThemeContext } from './ThemeContext';
 
 const Nav = () => {
         
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const { theme } = useContext(ThemeContext);
 
 
@@ -21,8 +21,7 @@ const Nav = () => {
                     <h1>Alexis BELIGNE</h1>
                     <p>{t('greeting')}</p>
                 </div>
-                    <div className="image_accueil">
-                    </div>
+                <div className="image_accueil"></div>
             </a>
         </header>
     )}

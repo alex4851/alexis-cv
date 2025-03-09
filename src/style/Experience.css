@@ -1,11 +1,12 @@
 #Experience{
     padding: 80px 50px 50px 50px;
     min-height: 100vh;
-}
+    display: flex;
+    flex-direction: column;
+  }
 
 .carousel-container {
-  width: 50%;
-  max-width: 500px;
+  width: 500px;
   margin: 50px auto 200px ;
   padding: 40px;
 }
@@ -22,12 +23,16 @@
 .dark .carousel-item #brightness{
   filter: brightness(100);
 }
-.carousel-item img {
-  width: 100%;
+.carousel-item img, .carousel-item iframe {
+  width: 500px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
+.carousel-item iframe{
+  border: 1px solid #ddd;
+  background-color: white;
+}
 .carousel-text {
   text-align: center;
 }
@@ -40,5 +45,20 @@
 .carousel-text p {
   font-size: 16px;
   color: black;
+}
+
+
+@media screen and (max-width : 1000px ) {
+  .carousel-container {
+    width: 300px;
+    margin: 50px auto 200px ;
+    padding: 40px;
+  }
+  .carousel-item img, .carousel-item iframe {
+    width: 299px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
 }
 

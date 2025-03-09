@@ -46,3 +46,21 @@ header:hover .greeting_part{
     width: 300px;
     opacity: 1;
 }
+
+
+
+@media screen and (max-width : 1000px ) {
+    header .greeting_part{
+      width: 400px;
+      opacity: 1;
+  }
+  header a{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    height: 800px;
+  }
+  .circle{
+    display: none;
+  }
+}
