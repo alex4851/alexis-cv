@@ -58,7 +58,7 @@ header:hover .greeting_part{
     display: flex;
     flex-direction: column-reverse;
     gap: 30px;
-    height: 800px;
+    height: 100vh;
   }
   .circle{
     display: none;
