@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alexis-cv/static/css/main.1b1d6875.css",
-    "main.js": "/alexis-cv/static/js/main.33f32ba1.js",
+    "main.css": "/alexis-cv/static/css/main.c8cc536a.css",
+    "main.js": "/alexis-cv/static/js/main.ecdff971.js",
     "static/media/exemple.jpg": "/alexis-cv/static/media/exemple.e92745c6af935e250fef.jpg",
     "static/media/alexis_beligne_cv.pdf": "/alexis-cv/static/media/alexis_beligne_cv.8e7c5c1ea7a5430f99ac.pdf",
     "static/media/sopra_steria.png": "/alexis-cv/static/media/sopra_steria.dc6e0dfc41a87d3c5c7d.png",
@@ -11,11 +11,11 @@
     "static/media/slick.ttf": "/alexis-cv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/alexis-cv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/alexis-cv/index.html",
-    "main.1b1d6875.css.map": "/alexis-cv/static/css/main.1b1d6875.css.map",
-    "main.33f32ba1.js.map": "/alexis-cv/static/js/main.33f32ba1.js.map"
+    "main.c8cc536a.css.map": "/alexis-cv/static/css/main.c8cc536a.css.map",
+    "main.ecdff971.js.map": "/alexis-cv/static/js/main.ecdff971.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b1d6875.css",
-    "static/js/main.33f32ba1.js"
+    "static/css/main.c8cc536a.css",
+    "static/js/main.ecdff971.js"
   ]
 }
