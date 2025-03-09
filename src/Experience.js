@@ -9,6 +9,7 @@ import Slider from "react-slick";
 import ImgAi from './images/exemple.jpg'
 import ImgSopra from './images/sopra_steria.png'
 import ImgAD from './images/ad_education.png'
+import ImgFbg from './images/fbgbooks.jpg'
 // import SkillBar from './Skill.js';
 
 
@@ -59,10 +60,7 @@ function Experience() {
 
                     <div className="carousel-item">
                         <a rel='noreferrer' title='Try website' target='_blank' href='https://fbgbooks.fr/'>
-                            <iframe
-                            title="Inline Frame Example"
-                            src="https://fbgbooks.fr/">
-                            </iframe>
+                            <img src={ImgFbg} alt="FBG Books" title='Visit website'/>
                         </a>
                         <div className="carousel-text">
                             <h3>FBG Books</h3>
