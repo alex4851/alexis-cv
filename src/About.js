@@ -3,12 +3,12 @@ import { useTranslation } from 'react-i18next';
 import './i18n';
 import './style/About.css';
 import { ThemeContext } from './ThemeContext';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { FaGraduationCap } from 'react-icons/fa';
-import { MdHeight } from 'react-icons/md';
+//import { MdHeight } from 'react-icons/md';
 
 function Home() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const { theme } = useContext(ThemeContext);
 
     const [scrollPosition, setScrollPosition] = useState(0);

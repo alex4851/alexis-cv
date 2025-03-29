@@ -3,7 +3,7 @@ import './i18n';
 import { useTranslation } from 'react-i18next';
 import './style/Footer.css';
 import { ThemeContext } from './ThemeContext';
-import pdf from './images/alexis_beligne_cv.pdf'
+import pdf from './images/alexis-beligne-cv.pdf'
 
 function Footer() {
     const { t } = useTranslation();

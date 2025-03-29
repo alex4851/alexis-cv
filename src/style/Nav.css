@@ -28,14 +28,6 @@ nav ul li{
   background-color: #000000;
 }
 
-.navigation.dark  #active{
-  border-bottom: 1px solid #000000;
-  color: black;
-}
-.navigation.light #active{
-  border-bottom: 1px solid white;
-  color: white;
-}
 .navigation.light li{
   color: white;
 }
@@ -51,31 +43,8 @@ button{
   cursor: pointer;
 }
 
-
-.menu-hamburger{
+.icon{
   display: none;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  border-radius: 50%;
-  padding: 10px;
-  border: none;
-  background-color: white;
-}
-.menu-hamburger.active .barre:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.menu-hamburger.active .barre:nth-child(2) {
-  opacity: 0;
-}
-
-.menu-hamburger.active .barre:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
-.menu-hamburger:hover{
-  cursor:pointer;
-  scale: 1.1;
 }
 .barre{
   width: 30px;
@@ -86,37 +55,42 @@ button{
 }
 
 @media screen and (max-width : 1000px ) {
-  .menu-hamburger {display: block;}
+  .icon {
+    display: block;
+  }
   .lien{
     width: 100%;
-    height: 110vh;
     position: fixed;
-    top:0;
-    left: -200%;
+    bottom : 10px;
+    left: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-  }
-  .navigation.dark .lien{
-    background-color: #000000;
+    background-color: transparent;
   }
   .lien ul{
-    justify-content: center;
+    border: 1px solid #929292;
+    padding: 0;
+    margin: 0;
+    border-radius: 50px;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: row;
+    width: 250px;
+    background-color: white;
+    height: 50px;
+  }
+  .lien ul a {
+    padding: 10px;
+  }
+  .lien ul li{
+    display: none;
   }
   .navigation.light li{
     color: black;
   }
-  .navigation.dark li{
-    color: white;
-  }
-  .lien.active{
-    transform:translateX(200%);
+  .navigation.dark a{
+    color: black;
   }
 }
 

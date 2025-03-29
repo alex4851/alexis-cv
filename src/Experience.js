@@ -20,11 +20,11 @@ function Experience() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 700,
+        speed: 400,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 10000,
       };
     return(
         <section id='Experience' className={theme}>

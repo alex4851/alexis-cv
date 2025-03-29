@@ -1,9 +1,9 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext} from 'react';
 import { useTranslation } from 'react-i18next';
 import './i18n';
 import './style/Nav.css';
 import { ThemeContext } from './ThemeContext';
-
+import {FaGraduationCap, FaPhoneAlt, FaSuitcase, FaCircle } from 'react-icons/fa'
 
 function Nav() {
     const { t, i18n } = useTranslation();
@@ -14,15 +14,6 @@ function Nav() {
 
     const { theme, toggleTheme } = useContext(ThemeContext);
 
-    const [isActive, setIsActive] = useState(false);
-
-    function toggleMenu() {
-      setIsActive(!isActive); // Ouvre/ferme le menu
-    }
-  
-    function closeMenu() {
-      setIsActive(false); // Ferme le menu après un clic sur un lien
-    }
 
     return(
         <nav id='Nav' className={`navigation ${theme}`}>
@@ -30,26 +21,19 @@ function Nav() {
                 <button onClick={() => changeLanguage('fr')}>Fr</button>
                 <button onClick={() => changeLanguage('en')}>En</button>
             </div>
-            <div className={`lien ${isActive ? 'active' : ''}`}>
+            <div className='lien'>
                 <ul>
-                    <a href='#Home' onClick={closeMenu}><li>{t('about')}</li></a>
-                    <a href='#About' onClick={closeMenu}><li>{t('formation')}</li></a>
-                    <a href='#Experience' onClick={closeMenu}><li>{t('experience')}</li></a>
-                    <a href='#Contact' onClick={closeMenu}><li>{t('contact')}</li></a>
-
+                    <a href='#Home' ><li>{t('about')}</li><FaCircle  className='icon'/></a>
+                    <a href='#About'><li>{t('formation')}</li><FaGraduationCap className='icon'/></a>
+                    <a href='#Experience'><li>{t('experience')}</li><FaSuitcase className='icon'/></a>
+                    <a href='#Contact' ><li>{t('contact')}</li><FaPhoneAlt className='icon'/></a>
                 </ul>
             </div>
 
             <label className="switch">
                 <input onClick={toggleTheme} type="checkbox" defaultChecked />
                 <span className="slider"></span>
-            </label>   
-
-            <button onClick={toggleMenu} className={`menu-hamburger ${isActive ? 'active' : ''}`}>
-                <div className="barre"></div>
-                <div className="barre"></div>
-                <div className="barre"></div>
-            </button>     
+            </label> 
         </nav>
     )
 
