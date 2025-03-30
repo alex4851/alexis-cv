@@ -10,7 +10,6 @@ import ImgAi from './images/exemple.jpg'
 import ImgSopra from './images/sopra_steria.png'
 import ImgAD from './images/ad_education.png'
 import ImgFbg from './images/fbgbooks.jpg'
-// import SkillBar from './Skill.js';
 
 
 function Experience() {
@@ -29,10 +28,45 @@ function Experience() {
     return(
         <section id='Experience' className={theme}>
             <h2>Experience</h2>
+
+            <h3>Création de site web</h3>
+            <section className='websites'>
+                    
+                    <div className='site-web-card'>
+                        <h4>FBG BOOKS - Site de ECOMMERCE pour un auteur independant</h4>
+                        <p>Technologies utilisées</p>
+                        <ul>
+                            <li>JavaScript (Framework : Vite)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    <img src={ImgFbg} alt="FBG Books" title='Visit website' loading='lazy' height={250} width={450}/>
+
+                    </div>
+
+
+                    <div className='site-web-card'>
+                        <h4>AI LIBERTY - Site de recherche d'IA</h4>
+                        <p>Technologies utilisées</p>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>PHP</li>
+                            <li>MySql</li>
+                        </ul>
+                <img src={ImgAi} alt="Ai Liberty"  width={450} height={250} loading='lazy'/>
+
+                </div>
+            </section>
+
+
+
+            <h3>Stages :</h3>
             <div className="carousel-container">
                 <Slider {...settings}>
                     <div className="carousel-item">
-                        <img src={ImgAD} id='brightness'  alt="ADeducation" />
+                        <img src={ImgAD} id='brightness' loading='lazy' alt="ADeducation" />
                         <div className="carousel-text">
                             <h3>Stage à ADeducation</h3>
                             <p>{t("ad")}</p>
@@ -40,51 +74,16 @@ function Experience() {
                     </div>
 
                     <div className="carousel-item">
-                        <img src={ImgSopra} id='brightness'  alt="SopraSteria" />
+                        <img src={ImgSopra} id='brightness' loading='lazy' alt="SopraSteria" />
                         <div className="carousel-text">
                             <h3>Stage à SopraSteria</h3>
                             <p>{t("sopra")}</p>
                         </div>
                     </div>
 
-                    <div className="carousel-item">
-                        <a rel='noreferrer' title='Try website' target='_blank' href='https://ai-liberty.fr/'>
-                        <img src={ImgAi} alt="Ai Liberty" />
-                        </a>
-                        <div className="carousel-text">
-                            <h3>Ai Liberty</h3>
-                            <p>{t("ai_liberty")}</p>
-                        </div>
-                    </div>
-
-
-                    <div className="carousel-item">
-                        <a rel='noreferrer' title='Try website' target='_blank' href='https://fbgbooks.fr/'>
-                            <img src={ImgFbg} alt="FBG Books" title='Visit website'/>
-                        </a>
-                        <div className="carousel-text">
-                            <h3>FBG Books</h3>
-                            <p>{t("fbg")}</p>
-                        </div>
-                    </div>
                 </Slider>
             </div>
 
-
-
-            {/*
-
-            <h2>Skills :</h2>
-            <div className="skills-container">
-                <SkillBar skillName="HTML" skillLevel={95} />
-                <SkillBar skillName="CSS" skillLevel={70} />
-                <SkillBar skillName="Python" skillLevel={50} />
-                <SkillBar skillName="PHP" skillLevel={50} />
-                <SkillBar skillName="SQL" skillLevel={50} />
-                <SkillBar skillName="JavaScript" skillLevel={50} />
-            </div>
-            
-        */}
         </section>
 
     )

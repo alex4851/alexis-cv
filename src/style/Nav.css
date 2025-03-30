@@ -17,7 +17,7 @@ nav{
 nav ul{
     display: flex;
 }
-nav ul li{
+nav ul .text-nav{
     margin: 0 30px;
 }
 
@@ -28,10 +28,10 @@ nav ul li{
   background-color: #000000;
 }
 
-.navigation.light li{
+.navigation.light .text-nav{
   color: white;
 }
-.navigation.dark li{
+.navigation.dark .text-nav{
   color: black;
 }
 
@@ -55,6 +55,7 @@ button{
 }
 
 @media screen and (max-width : 1000px ) {
+
   .icon {
     display: block;
   }
@@ -83,14 +84,17 @@ button{
   .lien ul a {
     padding: 10px;
   }
-  .lien ul li{
+  .lien ul .text-nav{
     display: none;
   }
-  .navigation.light li{
+  .navigation.light .text-nav{
     color: black;
   }
   .navigation.dark a{
     color: black;
+  }
+  .navigation.dark, .navigation.light {
+    background: transparent;
   }
 }
 
