@@ -29,7 +29,7 @@ function Home() {
       { name:'',  date: '2024 - 2025', icon:<FaGraduationCap />,  title: 'Saint Thomas de Villeneuve', subtitle:t("bac"), description:t("spe") , },
       { name:'',  date: '2024', icon:<FaGraduationCap />,  title: 'Cambridge Exam', subtitle:'First', description:t("first") , },
       { name:'',  date: '2022', icon:<FaGraduationCap />,  title: 'PSC1', subtitle:"", description:t("psc1") , },
-      { name:'',  date: '2020 - 2022', icon:<FaGraduationCap />,  title: 'Scoutisme', subtitle:"", description:'Plusieurs années de scoutisme' , },
+      { name:'',  date: '2020 - 2022', icon:<FaGraduationCap />,  title: 'Scoutisme', subtitle:"", description:t("scoutisme") , },
       // Ajoute d'autres événements ici
     ];
 

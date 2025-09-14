@@ -21,7 +21,7 @@
   align-items: center;
   flex-direction: column;
 }
-.dark .carousel-item, .dark .carousel-text p{
+.dark .carousel-item, .dark .carousel-text p, .dark h3{
   color: white;
 }
 .dark .carousel-item #brightness{
@@ -150,12 +150,12 @@
   }
 }
 
-@media screen and (max-width : 400px ) {
+@media screen and (max-width : 500px ) {
   .site-web-card{
-  width: 200px;
+  width: 150px;
   }
   .site-web-card img{
-    width: 150px;
+    width: 100px;
     height: inherit;
   }
 }

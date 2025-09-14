@@ -27,14 +27,15 @@ function Experience() {
       };
     return(
         <section id='Experience' className={theme}>
-            <h2>Experience</h2>
+            <h2>Experience</h2>                      
 
-            <h3>Création de site web</h3>
+            <h3>{t("site")}</h3>
             <section className='websites'>
                     
+                <a href='https://www.fbgbooks.fr' target='_blank' rel='noreferrer'>
                     <div className='site-web-card'>
                         <h4>FBG BOOKS - Site de ECOMMERCE pour un auteur independant</h4>
-                        <p>Technologies utilisées</p>
+                        <p>{t("techno")}</p>
                         <ul>
                             <li>JavaScript (Framework : Vite)</li>
                             <li>HTML</li>
@@ -43,11 +44,11 @@ function Experience() {
                     <img src={ImgFbg} alt="FBG Books" title='Visit website' loading='lazy' height={250} width={450}/>
 
                     </div>
-
+                </a>
 
                     <div className='site-web-card'>
                         <h4>AI LIBERTY - Site de recherche d'IA</h4>
-                        <p>Technologies utilisées</p>
+                        <p>{t("techno")}</p>
                         <ul>
                             <li>JavaScript</li>
                             <li>HTML</li>
@@ -55,14 +56,14 @@ function Experience() {
                             <li>PHP</li>
                             <li>MySql</li>
                         </ul>
-                <img src={ImgAi} alt="Ai Liberty"  width={450} height={250} loading='lazy'/>
+                <img src={ImgAi} alt="Ai Liberty" title='Not available for the moment' width={450} height={250} loading='lazy'/>
 
                 </div>
             </section>
 
 
 
-            <h3>Stages :</h3>
+            <h3>{t('stage')}</h3>
             <div className="carousel-container">
                 <Slider {...settings}>
                     <div className="carousel-item">

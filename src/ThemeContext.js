@@ -1,10 +1,13 @@
 import React, { createContext, useState } from 'react';
+import './i18n';
 
 // Créer le contexte
 export const ThemeContext = createContext();
 
 // Créer le provider pour englober l'application
+
 export const ThemeProvider = ({ children }) => {
+
   const [theme, setTheme] = useState('light'); // Par défaut 'light'
 
   // Fonction pour basculer le thème
