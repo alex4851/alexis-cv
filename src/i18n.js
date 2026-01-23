@@ -1,6 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-
+const lng = "fr"
 const resources = {
   en: {
     translation: {
@@ -14,7 +14,7 @@ const resources = {
       //Partie formation
       "formation" : "Education", 
       "bac" : "Terminale in Europeen section",
-      "spe" : "Maths, Physics and Computer Science speciality",
+      "spe" : "Maths, Physics and Computer Science speciality; advenced mathematics option",
       "first" : "English : C1 level",
       "psc1" : "Level 1 State Diploma in Prevention and Civic Relief",
       //Partie expérience
@@ -41,9 +41,9 @@ const resources = {
       "about_p" : "J'ai toujours aimé coder et travailler sur des problèmes.",
       //Partie formation
       "formation" : "Formation",
-      "bac" : "1ere en séction Européenne",
-      "spe" : "Spécialité Maths, Physique et NSI",
-      "first" : "Anglais : niveau B2",
+      "bac" : "Terminale en séction Européenne",
+      "spe" : "Spécialité Maths, Physique et NSI avec option maths expertes",
+      "first" : "Anglais : niveau C1",
       "psc1" : "Diplôme d'Etat de Prévention et de Secours Civiques de niveau 1",
       //Partie expérience
       "sopra" : "Stage d'observation d'une semaine à Sopra Steria, la deuxième plus grande ESN d'Europe",

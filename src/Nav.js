@@ -7,7 +7,14 @@ import {FaGraduationCap, FaPhoneAlt, FaSuitcase, FaCircle } from 'react-icons/fa
 
 function Nav() {
     const { t, i18n } = useTranslation();
-  
+    function language() {
+        if (t("formation") === 'Formation'){
+changeLanguage('en');
+            }
+        else {
+changeLanguage('fr');
+        }
+    }
     const changeLanguage = (lng) => {
       i18n.changeLanguage(lng);
     };
@@ -17,10 +24,10 @@ function Nav() {
 
     return(
         <nav id='Nav' className={`navigation ${theme}`}>
-            <div className='button'>
-                <button type="button" onClick={() => changeLanguage('fr')}>Fr</button>
-                <button type="button" onClick={() => changeLanguage('en')}>En</button>
-            </div>
+
+            <button onClick={language}>
+                FR / EN
+            </button>
             <div className='lien'>
                 <ul>
                     <li><a href='#Home' ><p className='text-nav'>{t('about')}</p><FaCircle  className='icon'/></a></li>

@@ -16,7 +16,7 @@ function Footer() {
                 <h2>Contact</h2>
                 <a href='mailto:alexisbeligne@gmail.com'><p>Email : alexisbeligne@gmail.com</p></a>
                 <a href='tel:0749531250' ><p>Téléphone : +33 7 49 53 12 50</p></a>
-                <a href='linkedin.com'><p>Linkedin : alexisblg</p></a>
+                <a href='https://www.linkedin.com/in/alexis-beligne-05bb36319/'><p>Linkedin : alexisblg</p></a>
             </div>
         </footer>
     )

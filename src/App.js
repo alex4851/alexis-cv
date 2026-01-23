@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import './i18n';
 import './style/App.css';
 import Nav from './Nav.js';

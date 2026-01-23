@@ -6,6 +6,8 @@ header a{
     margin-top: -72px;
     height: 100vh;
 }
+
+
 header .greeting_part{
     opacity: 0;
     width: 0;
