@@ -4,14 +4,14 @@ import { useTranslation } from 'react-i18next';
 import './style/Footer.css';
 import { ThemeContext } from './ThemeContext';
 import pdf from './images/alexis-beligne-cv.pdf'
-
+import AnimatedText from './text_anim';
 function Footer() {
     const { t } = useTranslation();
     const { theme } = useContext(ThemeContext);
 
     return(
         <footer id='Contact' className={`contact ${theme}`}>
-            <a className='cv' href={pdf} download={pdf}>{t("cv")}</a>
+            <a className='cv' href={pdf} download={pdf}><AnimatedText text={t("cv")}/></a>
             <div className="floating-text-container">
                 <h2>Contact</h2>
                 <a href='mailto:alexisbeligne@gmail.com'><p>Email : alexisbeligne@gmail.com</p></a>

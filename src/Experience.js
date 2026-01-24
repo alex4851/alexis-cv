@@ -10,7 +10,7 @@ import ImgAi from './images/exemple.jpg'
 import ImgSopra from './images/sopra_steria.png'
 import ImgAD from './images/ad_education.png'
 import ImgFbg from './images/fbgbooks.jpg'
-
+import AnimatedText from './text_anim';
 
 function Experience() {
     const { t} = useTranslation();
@@ -29,7 +29,7 @@ function Experience() {
         <section id='Experience' className={theme}>
             <h2>Experience</h2>                      
 
-            <h3>{t("site")}</h3>
+            <h3><AnimatedText text={t("site")}/></h3>
             <section className='websites'>
                     
                 <a href='https://www.fbgbooks.fr' target='_blank' rel='noreferrer'>
@@ -63,14 +63,14 @@ function Experience() {
 
 
 
-            <h3>{t('stage')}</h3>
+            <h3><AnimatedText text={t('stage')}/></h3>
             <div className="carousel-container">
                 <Slider {...settings}>
                     <div className="carousel-item">
                         <img src={ImgAD} id='brightness' loading='lazy' alt="ADeducation" />
                         <div className="carousel-text">
                             <h3>Stage à ADeducation</h3>
-                            <p>{t("ad")}</p>
+                            <p><AnimatedText text={t("ad")}/></p>
                         </div>
                     </div>
 
@@ -78,7 +78,7 @@ function Experience() {
                         <img src={ImgSopra} id='brightness' loading='lazy' alt="SopraSteria" />
                         <div className="carousel-text">
                             <h3>Stage à SopraSteria</h3>
-                            <p>{t("sopra")}</p>
+                            <p><AnimatedText text={t("sopra")}/></p>
                         </div>
                     </div>
 

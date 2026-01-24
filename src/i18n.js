@@ -1,6 +1,5 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-const lng = "fr"
 const resources = {
   en: {
     translation: {

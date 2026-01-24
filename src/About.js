@@ -6,6 +6,7 @@ import { ThemeContext } from './ThemeContext';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { FaGraduationCap } from 'react-icons/fa';
 //import { MdHeight } from 'react-icons/md';
+import AnimatedText from './text_anim';
 
 function Home() {
     const { t } = useTranslation();
@@ -35,7 +36,7 @@ function Home() {
 
     return(
         <main id='About' className={`about ${theme}`}>
-            <h2>{t('formation')}</h2>
+            <h2><AnimatedText text={t('formation')}/></h2>
 
             <div className="timeline">
                 {items.map((item, index) => (
@@ -54,8 +55,8 @@ function Home() {
                                                 date={item.date}
                                                 icon={item.icon}
                                     >
-                                                <h3 className="vertical-timeline-element-title">{item.title}</h3>
-                                                <h4 className="vertical-timeline-element-subtitle">{item.subtitle}</h4>
+                                                <h3 className="vertical-timeline-element-title"><AnimatedText text={item.title}/></h3>
+                                                <h4 className="vertical-timeline-element-subtitle"><AnimatedText text={item.subtitle}/></h4>
                                                 <p> {item.description}</p>
                                     </VerticalTimelineElement>
                     </div>

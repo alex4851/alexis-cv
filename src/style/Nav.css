@@ -67,6 +67,7 @@ button{
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: transparent;
   }
   .lien ul{
@@ -81,8 +82,21 @@ button{
     background-color: white;
     height: 50px;
   }
+  .lien li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .lien ul a {
-    padding: 10px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .lien ul .text-nav{
     display: none;

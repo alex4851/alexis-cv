@@ -7,11 +7,12 @@ import About from './About.js';
 import Experience from './Experience.js';
 import Footer from './Footer.js';
 import { ThemeProvider } from './ThemeContext.js';
-
-
+import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const {  i18n } = useTranslation();
 
   const handleMouseMove = (e) => {
     setMousePosition({ x: e.clientX,  y: e.clientY });
@@ -26,11 +27,12 @@ function App() {
           top: `${mousePosition.y}px`,
         }}
       />
-        <Nav />
-        <Home />
-        <About />
-        <Experience />
-        <Footer />
+    
+            <Nav />
+            <Home />
+            <About />
+            <Experience />
+            <Footer />
       </ThemeProvider>
       </div>
   );
